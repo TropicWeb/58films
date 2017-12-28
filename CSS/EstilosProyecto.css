@@ -1,0 +1,698 @@
+/*V3.1
+
+NUEVAS IMPLEMENTACIONES
+
+-(1)Linea 552 
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+font-family: 'Rasa', serif;
+body{
+	box-sizing: border-box;
+	background: #ffffff;
+}
+
+.navbar{
+	background-color:#000000;
+	border-bottom: 3px solid black; 
+}
+
+.logo{
+	width: 160px;
+	height: auto;
+	margin-top: -25px;
+}
+
+.logofase2{
+	height: auto ;
+	width: 160px;
+}
+
+.dropdown-menu{
+	background: #000000;;
+}
+
+.pbbar{
+	font-family: 'helvetica';
+	color:#ffffff;
+	font-weight: bold;
+	font-size: 15px;
+	display: inline-block;
+}
+
+.pbbar:hover{
+	color: #1cd3c1;
+}
+
+.dropdown-menu>li>a{
+	padding-left:45px;
+}
+
+.dropdown-menu>li>a:hover{
+	background: #000000;
+}
+
+
+.text-logo:hover{
+	color: #1cd3c1;
+}
+
+.navbar-toggle{
+	background-color:#000000 ;
+}
+
+.icon-bar{
+	background-color:#ffffff;
+}
+
+.navbar .navbar-nav >li >a{
+	color: #ffffff;
+	font-family: 'helvetica' ;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.leftx{
+	text-align: right;
+}
+
+.navbar .navbar-nav >li >a:hover,
+.navbar .navbar-nav >li >a:focus{
+	background-color: transparent;
+	color: #1cd3c1;
+}
+
+.navbar .navbar-nav >li >a:active{
+	color: white;
+}
+
+.sectionunoa{
+	padding-bottom: 55px;
+}
+
+.sectiondosb{
+	margin-bottom: -50px;
+	margin-top: 50px;
+	border-top:7px solid #890e20;
+    border-bottom:3px solid #1cd3c1;
+}
+
+.btn{
+	background-color: rgba(247, 99, 34,.7 );
+	color: white;
+	border-radius: 10px;
+}
+
+.btn:hover{
+	background-color: rgba(247, 99, 34,1 );
+	color: white;
+	border-radius: 10px;
+	font-weight: 400;
+}
+
+.sectiontresc{
+	background:  #fff;
+	border-color: black;
+	margin-bottom: 5px;
+	margin-top: -5px;
+	padding:30px;
+}
+
+.sectiontresus{
+	background:  #890e20;
+}
+
+.titleweb{
+	font-family:'helvetica';
+	font-weight: bold; 
+	color: black;
+}
+
+.imgus{
+	text-align:center;
+}
+
+
+.posus{
+	position: relative;
+	top:-68px;
+	left: -32px;
+}
+
+.logus{
+	position: relative;
+	top:90px;
+}
+
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    border-radius: 0px ;
+    border-top: 20px solid #1cd3c1;
+}
+
+.chase{	
+	margin-top:20px;
+}
+
+.usimgeng{    
+    margin-top: 166px;
+}
+
+.usimgesp {
+    margin-top: 193px;
+}
+
+
+.logosec2{
+   margin-top: 30px;
+   height: 70px;
+   width:300px;
+}
+
+.pw{
+	font-family: 'Rasa';
+	color:#fff;
+    font-size: 18px;
+}
+
+.pb{
+	font-family: 'Rasa';
+	color:#000;
+
+}
+
+.negti{
+	font-size: 28px;
+}
+
+p{
+	font-size: 1.2em;
+}
+
+.sectioncuatrod{
+	background:  #fff;
+	border-color: black;
+	margin-bottom: 10px;
+	margin-top: -80px; 
+}
+
+.sectioncincoe{
+	margin-top: -75px; 
+}
+
+.sectionseisf{
+	background:  #ffffff;
+	border-color: black;
+	margin-top: -255px;
+	padding: 30px;
+}
+
+.rotate-icon{
+	color:#1cd3c1;
+	font-size: 180px;
+}
+
+.anim1{
+	animation-name:girar;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+	animation-timing-function:linear;
+	animation-delay:3s;
+}
+
+@keyframes girar{
+
+	from{
+		transform:rotateY(0);
+	}
+
+	to{
+        transform:rotateY(360deg);
+	}
+}
+
+.google-maps{
+	width: 100%;
+	height: 500px;
+	border:6px solid #1cd3c1;
+}
+
+
+.banner{
+	margin-top: 20px;
+}
+
+.parallax{
+	width: 100%;
+	height: 55vh;
+	background-image: url(../images/paralize.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+.sectionnuevei{
+	background: #890e20;
+	margin-top:-30px; 
+}
+
+.redes{
+	margin-top: 30px;
+}
+
+.butredes.face{
+	padding: 20px 40px;
+	border:2px solid white;
+	background: white;
+	color: black;
+	transition: all 300ms ease;
+}
+.butredes.insta{
+	padding: 20px 40px;
+	border:2px solid white;
+	background: white;
+	color: black;
+	transition: all 300ms ease;
+}
+
+.butredes.insta:hover{
+	border:2px solid transparent;
+	background: #cd486b;
+	color:white;
+}
+.butredes.face:hover{
+	border:2px solid transparent;
+	background: #3b5998;
+	color:white;
+}
+
+.butredes.twitter{
+	padding: 20px 40px;
+	border:2px solid white;
+	background: white;
+	color: black;
+	transition: all 300ms ease;
+}
+
+.butredes.twitter:hover{
+	border:2px solid transparent;
+	background: #1dcaff;
+	color: white;
+}
+.butredes.plus{
+	padding: 20px 40px;
+	border:2px solid white;
+	background: white;
+	color: black;
+	transition: all 300ms ease;
+}
+
+.butredes.plus:hover{
+	border:2px solid transparent;
+	background: #d34836;
+	color: white;
+}		
+
+
+.piemenu > li > a{
+	color: #ffffff;
+	font-family: 'helvetica';
+	font-weight: bold;
+	font-size: 1.20em;
+	text-decoration: none;
+}
+.piemenu > li > a:hover{
+	color: #1cd3c1;
+}
+
+.separacion{
+	margin-top: 40px;
+}
+
+
+.container-a{
+	border-top: 30px;
+	padding: 65px 0;
+} 
+
+.respim{
+   	display: none;
+}
+
+.respno{
+   display: block;
+}
+
+.cpyr{
+	margin-top : -50px;
+}
+
+.scrollup{
+	width: 40px;
+	height: 40px;
+	color: transparent;
+	background-image: url(../images/top.PNG);
+	border-radius: 50%;
+	opacity: .7;
+	position: fixed;
+	bottom: 25px;
+	right: 20px;
+	display: none;
+}
+
+.scrollup:hover, .scrollup:focus{
+	color: transparent;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: 5px ;
+    outline-offset: -2px;
+}
+
+
+.dropbar{
+	font-size: 18px;
+}
+
+.pv{
+	width:20px;
+	height: 20px; 
+}
+
+.desplegable{
+	display: block;
+	margin-top: -50px;	
+}
+
+.SPN{
+	display: none;
+	margin-top: 10px;
+}
+
+.bool{}
+
+.bgpus{
+	background-color: #000000;
+}
+
+.unete{
+	margin-top: 70px;}
+
+.pp{
+	margin-top: -70px;
+	width: 100%;
+}
+
+.impl{
+	padding: 0px;
+	width: 100%;
+}
+
+
+.btn {
+    background-color: rgb(28, 211, 193);
+    color: black;
+    border-radius:0px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.btn:hover {
+    background-color: #1cd3c1;
+    border-radius:0px;
+}
+
+.btn.desaqu:hover{
+	background-color: #890e20;
+}
+
+.prueba{
+	font-size: 13px;
+	display: block;
+	background-color: #890e20;
+    color: white;
+    padding: 15px;
+    border-radius: 0px;
+    margin-top:220px;
+    margin-bottom: 90px;
+    position: relative;
+    z-index: 2;
+    text-align:center;
+
+}
+
+.prueba:hover,
+.prueba:focus{
+	text-decoration: none;
+	color: white;
+}
+
+.pdf{
+	margin-top:30px;
+	margin-bottom: 30px
+}
+
+.une{
+	color: black;
+	margin-top: -345px;
+	z-index: 2;
+	position: relative;
+	font-style: 'helvetica';
+	font-weight: bold;
+	font-size: 45px;
+}
+
+.pbbk{
+	font-family: 'Rasa';
+	color:black;
+	font-size: 18px;
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+
+/*XS*/
+@media (max-width: 770px) {
+	.google-maps{
+		display: none;
+	}
+	.imghh{
+		display: none;
+	}
+	
+	.butredes.plus,
+	.butredes.face,
+	.butredes.twitter,
+	.butredes.insta{
+	padding: 15px 20px;
+    }
+	
+	.separacion{
+	margin-top: 0px;
+    }
+	
+	.sectiondosb{
+	margin-bottom: -50px;
+	margin-top: 0px;
+    }
+
+    .logus{
+    margin-top: -80px;
+	position: relative;
+	top:100px;
+    }
+
+    .sectioncuatrod{
+	margin-top: -75px; 
+    }
+    
+    .usimgeng{    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+
+    .usimgesp {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+	
+   .respim{
+    	display: block;
+    }
+
+    .respno{
+        display: none;
+    }
+
+	.cpyr{
+		margin-top : 10px;
+    }
+
+	.logo{
+		width: 130px;
+		height: auto;
+		margin-top: -25px;
+	}
+
+	.btn.only{ /*V3.1 Agregar el .only para solucionar la reduccion de botones en telefono*/
+		margin-top: -16px;
+		padding: 2px;
+		font-size: 6px;
+	}
+
+	.pdf{
+		margin-top:40px;
+		margin-bottom: 40px
+	}
+
+	.une{
+		color: black;
+		margin-top: 5px;
+		z-index: 2;
+		position: relative;
+		font-style: 'helvetica';
+		font-weight: bold;
+		font-size: 40px;
+	}
+
+	.prueba{
+		margin-top: 10px;
+		margin-bottom: 15px;
+		width: 80%;
+	}
+	.pruebaad{
+		margin-bottom: 10px;
+		margin-top: -5px;
+		width: 80%;
+	}
+
+	.phone{
+		display: none;
+	}
+
+	.pbbk{
+		margin-bottom: 10px;
+	}
+
+	.gb{
+		font-size: 40px;
+	}
+
+	.sectionseisf{
+		margin-top: -295px;
+	}
+
+}
+
+
+
+/*SM*/
+@media (min-width: 770px) and (max-width: 1000px){
+
+
+    .navbar .navbar-nav >li >a{
+		color: #ffffff;
+		font-family: 'helvetica' ;
+		font-size: 1.1em;
+		font-weight: bold;
+    }
+
+    .navbar .navbar-nav >li >a:hover{
+		color: #1cd3c1;
+    }
+
+    .imghh{
+		display: none;
+	}
+
+	.sectioncuatrod{
+	margin-top: -60px;
+	margin-left: 20px; 
+    }
+
+    .logo{
+		width: 130px;
+		height: auto;
+		margin-top: -25px;
+	}
+
+	.btn{
+		margin-top: -16px;
+		padding: 2px;
+		font-size: 6px;
+	}
+
+	.pdf{
+		margin-top:40px;
+		margin-bottom: 40px
+	}
+
+	.une{
+		color: black;
+		margin-top: 5px;
+		z-index: 2;
+		position: relative;
+		font-style: 'helvetica';
+		font-weight: bold;
+		font-size: 40px;
+	}
+
+	.prueba{
+		margin-top: 10px;
+		margin-bottom: 15px;
+		width: 80%;
+	}
+	.pruebaad{
+		margin-bottom: 10px;
+		margin-top: -5px;
+		width: 80%;
+	}
+
+	.phone{
+		display: none;
+	}
+
+	.pbbk{
+		margin-bottom: 10px;
+	}
+
+	.gb{
+		font-size: 40px;
+	}
+
+}
+
+
+@media (min-width: 1400px) { 
+   
+ 	.usimgesp {
+    	margin-top: 140px;
+	}
+
+}
+
+
+@media (width: 768px){
+	 .cpyr{
+		margin-left: 55px;
+    }
+
+}
