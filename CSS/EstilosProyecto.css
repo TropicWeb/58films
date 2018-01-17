@@ -1,33 +1,17 @@
-/*V3.1
-
-NUEVAS IMPLEMENTACIONES
-
--(1)Linea 552 
-
-
-
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 font-family: 'Rasa', serif;
+
 body{
 	box-sizing: border-box;
 	background: #ffffff;
 }
+
+
+.piemenu > li > a[class*="fada"]{
+	color : white;
+	font-size: 14px;
+}
+
 
 .navbar{
 	background-color:#000000;
@@ -94,13 +78,10 @@ body{
 }
 
 .navbar .navbar-nav >li >a:hover,
+.navbar .navbar-nav >li >a:active,
 .navbar .navbar-nav >li >a:focus{
 	background-color: transparent;
 	color: #1cd3c1;
-}
-
-.navbar .navbar-nav >li >a:active{
-	color: white;
 }
 
 .sectionunoa{
@@ -489,6 +470,7 @@ p{
 	margin-top: 20px;
 }
 
+
 /*XS*/
 @media (max-width: 770px) {
 	.google-maps{
@@ -552,7 +534,7 @@ p{
 		margin-top: -25px;
 	}
 
-	.btn.only{ /*V3.1 Agregar el .only para solucionar la reduccion de botones en telefono*/
+	.btn.only{
 		margin-top: -16px;
 		padding: 2px;
 		font-size: 6px;
@@ -599,6 +581,8 @@ p{
 	.sectionseisf{
 		margin-top: -295px;
 	}
+	
+	
 
 }
 
@@ -634,7 +618,7 @@ p{
 		margin-top: -25px;
 	}
 
-	.btn{
+	.btn.only{
 		margin-top: -16px;
 		padding: 2px;
 		font-size: 6px;
