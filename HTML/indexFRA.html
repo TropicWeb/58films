@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta name="description" content="Landing Page de la productora +58Films">
   <meta name="author" content="Miguel Fraga and Gabriel Taccone">
-  <title>+58FILMS</title>
-  <script src="https://use.fontawesome.com/7d7282779d.js"></script>
 
+  <title>+58FILMS</title>
+
+  <script src="https://use.fontawesome.com/7d7282779d.js"></script>
   <link rel = "stylesheet" href = "http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Rasa" rel="stylesheet">
   <link rel="icon" href="../images/Favicon.PNG">
@@ -15,57 +16,56 @@
   <link rel="stylesheet" href="../CSS/EstilosProyecto.css">
   <link rel="stylesheet" href="../CSS/animate.css">
   <link rel="stylesheet" href="../CSS/scrolling-nav.css">
-
 </head>
+
 <body>
 
 
-  <!--Seccion 1-->
-  <header class="sectionunoa" id="inicio">
+<!-- (Sección 1)  Cabercera y menú al tope de la página -->
+<header class="sectionunoa" id="inicio">
+  <nav class="navbar navbar-fixed-top " role="navigation">
+    <div class="container">
 
-    <nav class="navbar navbar-fixed-top " role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed"  data-toggle="collapse" data-target="#responsivemenu" aria-expanded="false">
-            <span class="sr-only">Desplegar Navegacion</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span> 
-          </button>
-         <a class="navbar-brand text-logo navbar-link" href="www.plus58films.ca">
-          <img src="../images/logo.png" alt=""  class="img-responsive navbar-brand logo">
-     </a>
-        </div>
-                  
-        <div class="collapse navbar-collapse" id="responsivemenu">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#inicio"   class="page-scroll drop">ACCUEIL</a></li>
-            <li><a href="#nosotros"  class="page-scroll drop">À PROPOS DE NOUS</a></li>
-            <li><a href="#projects"   class="page-scroll drop">NOS PROJETS</a></li>
-            <li><a href="#equipo"   class="page-scroll drop">ÉQUIPE</a></li>
-            <li><a href="#ubicacion"   class="page-scroll drop ">CONTACT</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle dropbar" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="../images/world.png" class="pv img-responsive"></a>
-              <ul class="dropdown-menu">
-                <li><a href="index.html" class="drop"><p class="pbbar" >ENGLISH</p></a></li>
-                <li><a href="indexES.html" class="drop"><p class="pbbar" >ESPAÑOL</p></a></li>
-                <li><a href="indexFRA.html" class="drop"><p class="pbbar" >FRANÇAIS</p></a></li>
-              </ul>
-            </li>            
-          </ul>
-        </div><!--Menu desplegable-->
-      </div><!--Container-->
-    </nav>
-  </header>
-  
+      <!-- Menú de colapso en móviles y el logo -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed"  data-toggle="collapse" data-target="#responsivemenu" aria-expanded="false">
+          <span class="sr-only">Desplegar Navegacion</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span> 
+        </button>
+        <a class="navbar-brand text-logo navbar-link" href="www.plus58films.ca"><img src="../images/logo.png" alt=""  class="img-responsive navbar-brand logo"></a>
+      </div>
+
+      <!-- Secciones del menú -->            
+      <div class="collapse navbar-collapse" id="responsivemenu">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#inicio"   class="page-scroll drop">ACCUEIL</a></li>
+          <li><a href="#nosotros"  class="page-scroll drop">À PROPOS DE NOUS</a></li>
+          <li><a href="#projects"   class="page-scroll drop">NOS PROJETS</a></li>
+          <li><a href="#equipo"   class="page-scroll drop">ÉQUIPE</a></li>
+          <li><a href="#ubicacion"   class="page-scroll drop ">CONTACT</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle dropbar" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="../images/world.png" class="pv img-responsive"></a>
+            <!--  Dropdwon del menú en idiomas  -->
+            <ul class="dropdown-menu">
+              <li><a href="index.html" class="drop"><p class="pbbar" >ENGLISH</p></a></li>
+              <li><a href="indexES.html" class="drop"><p class="pbbar" >ESPAÑOL</p></a></li>
+              <li><a href="indexFRA.html" class="drop"><p class="pbbar" >FRANÇAIS</p></a></li>
+            </ul>
+          </li>            
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+</header>
 
 
-
- <!--Seccion 2--> 
-
+<!-- (Sección 2)  Carrusel  con 7 imágenes --> 
 <section class="sectiondosb">
   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-    <!-- Indicadores -->
+    <!-- Indicadores en el carrusel-->
     <ol class="carousel-indicators">
       <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
       <li data-target="#carousel-example-generic" data-slide-to="1"></li>
@@ -73,10 +73,10 @@
       <li data-target="#carousel-example-generic" data-slide-to="3"></li>
       <li data-target="#carousel-example-generic" data-slide-to="4"></li>
       <li data-target="#carousel-example-generic" data-slide-to="5"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="6"></li>
     </ol>
   
-    <!-- Diapositivas del Carousel -->
+    <!-- Diapositivas del carrusel -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
         <img src="../images/imgcarousel2.jpg" alt="">
@@ -98,199 +98,192 @@
         <img src="../images/imgcarousel5.jpg" alt="">
       </div>
     
-     <div class="item">
+      <div class="item">
         <img src="../images/imgcarousel6.jpg" alt="">
       </div>
     
-    <div class="item">
+      <div class="item">
         <img src="../images/imgcarousel7.jpg" alt="">
       </div>
-
-
     </div>  
   
     <!-- Controles -->
-      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
 </section>
 
- <!--Seccion 3-->
-
- <div class="container-a" id="nosotros">
-   <section class="container-fluid" >
-      <div class="row sectiontresc">
-        <article class="col-md-9 sectiontresus">
-            <div class="container-a" id="nosotros">
+<!-- (Sección 3) Nosotros , texto y slogan -->
+<div class="container-a" id="nosotros">
+  <section class="container-fluid" >
+    <div class="row sectiontresc">
+      <article class="col-md-9 sectiontresus">
+        <div class="container-a" id="nosotros">
           <section class="container-fluid " >
-              <div class="row ">
-                <article class="col-md-4 col-sm-4 col-xs-12 ">
-                    <div class="posus"><img src="../images/francesNosotros.jpg" alt="" class="img-responsive "></div>                         
-                </article>
-                <article class="col-md-7 col-sm-8 col-xs-12">
-    <p class="text-center text-justify pw">
-+58 Films est une société de production cinématographique, dont l’objectif est de montrer les meilleures histoires sur grand écran. Nous croyons à l’influence qu’ont les films sur notre façon de penser et d’interagir avec les autres. Ainsi, nous espérons que chacun des courts ou long métrages que nous proposons pourra enrichir la vie de nos spectateurs.<p>
-                </article>
-              </div>
+            <div class="row ">
+              <!--Imágen de nosotros-->
+              <article class="col-md-4 col-sm-4 col-xs-12 ">
+                <div class="posus"><img src="../images/francesNosotros.jpg" alt="" class="img-responsive "></div>                         
+              </article>
+
+              <!--Texto-->
+              <article class="col-md-7 col-sm-8 col-xs-12">
+                <p class="text-center text-justify pw">
+                +58 Films est une société de production cinématographique, dont l’objectif est de montrer les meilleures histoires sur grand écran. Nous croyons à l’influence qu’ont les films sur notre façon de penser et d’interagir avec les autres. Ainsi, nous espérons que chacun des courts ou long métrages que nous proposons pourra enrichir la vie de nos spectateurs.<p>
+              </article>
+            </div>
           </section>
-      </div>   
-        </article>
-        <article class="col-xs-12 col-md-3">
-            <img src="../images/plus58fran.jpg" alt="" class="img-responsive usimgesp">
-        </article>
-      </div>
-      <hr id="projects">
-   </section>
- </div>
+        </div>   
+      </article>
+      <!--Slogan-->
+      <article class="col-xs-12 col-md-3">
+        <img src="../images/plus58fran.jpg" alt="" class="img-responsive usimgesp">
+      </article>
+    </div>
+    <hr id="projects">
+  </section>
+</div>
 
-
- <!--Seccion 4--> 
-  
+<!-- (Sección 4) Nuevos proyectos -->   
 <section class="container-fluid sectioncuatrod" >
+  <!--Imágen de nuevos proyectos-->
   <div class="row ">
     <article class="col-xs-0 col-sm-1 col-md-1"></article>
     <article class="col-xs-12 col-sm-10 col-md-10">
-       <img src="../images/Nouveaux projets.jpg" alt="" class="img-responsive">
+      <img src="../images/Nouveaux projets.jpg" alt="" class="img-responsive">
     </article>
     <article class="col-xs-0 col-sm-2 col-md-1"></article>
   </div>
 
   <div class="row ">
     <article class="col-xs-0 col-sm-1 col-md-1"></article>
-      <article class="col-xs-12 col-sm-5 col-md-5">
-        <div class="chase">
-          <img src="../images/lagoitalia.jpg" alt="" class="img-responsive">
-          <p class="text-center text-justify pb">
-         <strong class="negti">Le Poids de l’air</strong>(titre original: El peso del aire) raconte l’histoire de Leonardo, un architecte millionnaire, originaire de Buenos Aires, qui déménage dans un petit village près du Lac di Garda, en Italie, pour essayer de réinventer sa définition du bonheur après avoir tout perdu.
-          </p>
+    <!--Película "El peso del aire" y sus datos junto con una reseña-->
+    <article class="col-xs-12 col-sm-5 col-md-5">
+      <div class="chase">
+        <img src="../images/lagoitalia.jpg" alt="" class="img-responsive">
+        <p class="text-center text-justify pb"><strong class="negti">Le Poids de l’air</strong>(titre original: El peso del aire) raconte l’histoire de Leonardo, un architecte millionnaire, originaire de Buenos Aires, qui déménage dans un petit village près du Lac di Garda, en Italie, pour essayer de réinventer sa définition du bonheur après avoir tout perdu.</p>
         <p class="pb"><strong>Genre:</strong> Drame</p>
         <p class="pb"><strong>Durée:</strong> 1h 40min</p>
         <p class="pb"><strong>Statut:</strong> Pre-producción</p>
         <p class="pb">Début du tournage : été 2018</p>
         <p class="pb">Sortie : 2019</p>
-        </div>
+      </div>
     </article>
-    <article class="col-xs-12 col-sm-5 col-md-5">
-      <!--<hr class="esptex">-->
-        <div class="chase">
-        <img src="../images/parati.jpg" alt="" class="img-responsive respim">
-          <p class="text-center text-justify pb">
-         <strong class="negti">Pour toi</strong>(titre original: Para Ti) est l’histoire de Daniel, un adolescent originaire de Caracas qui cherche à remplir le vide laissé par la mort de sa mère.</p>
 
+    <!--Película "Para ti" y sus datos junto con una reseña-->
+    <article class="col-xs-12 col-sm-5 col-md-5">
+      <div class="chase">
+        <img src="../images/parati.jpg" alt="" class="img-responsive respim">
+        <p class="text-center text-justify pb"><strong class="negti">Pour toi</strong>(titre original: Para Ti) est l’histoire de Daniel, un adolescent originaire de Caracas qui cherche à remplir le vide laissé par la mort de sa mère.</p>
         <p class="pb leftx"><strong>Genre:</strong> Drame</p>
         <p class="pb leftx"><strong>Durée:</strong> 1h 45min</p>
         <p class="pb leftx"><strong>Statut:</strong> Pré-production</p>
         <p class="pb leftx">Début du tournage :  début 2019</p>
         <p class="pb leftx">Sortie : 2019</p>
-        </div>
-        <img src="../images/parati.jpg" alt="" class="img-responsive respno">
+      </div>
+      <img src="../images/parati.jpg" alt="" class="img-responsive respno">
     </article>
     <article class="col-xs-0 col-sm-1 col-md-1"></article>
   </div>
 </section> 
-  
+
+<!--Este contenedor sirve para llegar comodamente a la sección desde los menús-->  
 <div id="equipo"></div>
 
-<!--Seccion 5-->
- <section class="container-fluid unete">
+<!-- (Sección 5) Únete al equipo, imágen y parte desplegable con descargas de PDF -->
+<section class="container-fluid unete">
+  <!--Imágen de unete-->
   <div class="row">
-       <article class="col-md-12 col-sm-12 col-xs-12 bgpus">
-          <img src="../images/franunete.jpg" class="img-responsive ">
-       </article>   
-    </div>
+    <article class="col-md-12 col-sm-12 col-xs-12 bgpus">
+      <img src="../images/franunete.jpg" class="img-responsive ">
+    </article>   
+  </div>
+  <!--Botón para abrir la sección-->
   <div class="row">
-       <article class="col-md-12">
-        <button id="butshow" class="btn desplegable center-block bool only" type="button">Lire plus</button>
-       </article>   
-    </div>
- </section>   
+    <article class="col-md-12">
+      <button id="butshow" class="btn desplegable center-block bool only" type="button">Lire plus</button>
+    </article>   
+  </div>
+</section>  
 
-
-
-  <section id="showcoll" class="container-fluid SPN " >
-     <div class="row">
+<section id="showcoll" class="container-fluid SPN " >
+  <!--Texto de la sección desplegable-->
+  <div class="row">
     <article class="col-md-2" ></article>
     <article class="col-md-8" >
-      <p class="text-center pbbk">Les humains sont des êtres tribaux. Nous avons survécu pendant des milliers d'années et construit nos civilisations basées sur la solidarité et la contribution dans nos communautés.C'est pourquoi, chez +58 Films, nous nous concentrons sur le travail, la création et l'apprentissage en équipe. Nous vous invitons à faire partie de notre famille afin qu'ensemble nous puissions raconter des histoires qui transcendent l'écran.
-      </p>
+      <p class="text-center pbbk">Les humains sont des êtres tribaux. Nous avons survécu pendant des milliers d'années et construit nos civilisations basées sur la solidarité et la contribution dans nos communautés.C'est pourquoi, chez +58 Films, nous nous concentrons sur le travail, la création et l'apprentissage en équipe. Nous vous invitons à faire partie de notre famille afin qu'ensemble nous puissions raconter des histoires qui transcendent l'écran.</p>
     </article> 
     <article class="col-md-2" ></article>
-    </div>
+  </div>
 
-
+  <!--Sección de descarga de PDF-->
   <div class="row pdf">
     <article class="col-md-1" ></article>
-      <article class="col-md-5 col-sm-12 col-xs-12" >
-        <img src="../images/it.jpg" class="img-responsive phone">
-          <h2 class="text-center une gb">Investisseurs</h2>
-        <a href="../pdf/investors.pdf" download="+58Investisseurs" class="prueba center-block">TÉLÉCHARGER <i class="fa fa-download" aria-hidden="true"></i></a>
+    <!--Inversionistas-->
+    <article class="col-md-5 col-sm-12 col-xs-12" >
+      <img src="../images/it.jpg" class="img-responsive phone">
+      <h2 class="text-center une gb">Investisseurs</h2>
+      <a href="../pdf/investors.pdf" download="+58Investisseurs" class="prueba center-block">TÉLÉCHARGER <i class="fa fa-download" aria-hidden="true"></i></a>
     </article> 
 
+    <!--Talentos-->
     <article class="col-md-5 col-sm-12 col-xs-12" >       
-        <img src="../images/tt.jpg" class="img-responsive phone">
-        <h2 class="text-center une">Talents</h2>    
-            <a href="../pdf/talents.pdf" download="+58Talents" class="prueba pruebaad center-block">TÉLÉCHARGER <i class="fa fa-download" aria-hidden="true"></i></a>            
+      <img src="../images/tt.jpg" class="img-responsive phone">
+      <h2 class="text-center une">Talents</h2>    
+      <a href="../pdf/talents.pdf" download="+58Talents" class="prueba pruebaad center-block">TÉLÉCHARGER <i class="fa fa-download" aria-hidden="true"></i></a>            
     </article> 
     <article class="col-md-1" ></article>
-    </div>
- </section>  
+  </div>
+</section>
 
- <div class="container-a" id="ubicacion" >
-  <section class="container-fluid impl" >
-        <hr class="pp">
-  </section>
+<!--Este contenedor sirve para llegar comodamente a la sección desde los menús-->
+<div class="container-a" id="ubicacion" >
+  <section class="container-fluid impl"><hr class="pp"></section>
 </div>
  
-<!--FIN DE IMPLEMENTACION-->
 <div class="container-a" id="ubicacion">
   <section class="container-fluid sectioncincoe" >
-    <div class="row">
-      <article class="col-md-12">
-      </article>
+    <div class="row"><article class="col-md-12"></article>
     </div>
   </section>
 </div>
 
-
- <!--Seccion 6--> 
-
+<!-- (Sección 6) Sección de contactos -->
 <div class="container-a" id="ubicacion">
   <section class="container-fluid sectionseisf">
     <div class="row">
-
       <article class="col-md-4">
-      <h2 class="text-center titleweb">CONTACT</h2>
-        <div class="anim1">
-         <p class="text-center rotate-icon"><i class="glyphicon glyphicon-map-marker"></i></p>
-       </div>
-       <p class="text-center pb"><strong>Téléphone:</strong> +1 (514) 430-8089.</p>
-       <p class="text-center pb"><strong>Adresse électronique:</strong> Contact@plus58films.ca</p>
-       <p class="text-center pb"><strong>Adresse:</strong> 4150 Sainte Catherine West, Suite 490-115, Westmount, Qc, H3Z 2Y5, Canada. </p>
+        <h2 class="text-center titleweb">CONTACT</h2>
+        <!--Icono rotando-->
+        <div class="anim1"><p class="text-center rotate-icon"><i class="glyphicon glyphicon-map-marker"></i></p></div>
+        <!--Texto contacto-->
+        <p class="text-center pb"><strong>Téléphone:</strong> +1 (514) 430-8089.</p>
+        <p class="text-center pb"><strong>Adresse électronique:</strong> Contact@plus58films.ca</p>
+        <p class="text-center pb"><strong>Adresse:</strong> 4150 Sainte Catherine West, Suite 490-115, Westmount, Qc, H3Z 2Y5, Canada. </p>
       </article>
-  
+      <!--Ubicación Google Maps-->
       <article class="col-md-8">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2797.168416927838!2d-73.58937678444178!3d45.48655317910116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a7326f5e53f%3A0xad5a7379c7757951!2s4150+Rue+Sainte-Catherine+O%2C+Westmount%2C+QC+H3Z%2C+Canad%C3%A1!5e0!3m2!1ses!2sve!4v1511662732136" class="google-maps" width="600" height="450" frameborder="0" allowfullscreen></iframe>
       </article>  
-  
     </div>
   </section>
 </div>
 
- <!--Seccion 7-->
- <section class="container-fluid banner parallax">
- </section>   
+<!-- (Sección 7) Parallax -->
+<section class="container-fluid banner parallax"></section> 
 
- <!--Seccion 9-->
-
+<!-- (Sección 8) Pie de página con botones de redes sociales, menú y copyright-->
 <footer class="container-fluid sectionnuevei">
   <div class="row">
     <article class="col-md-2"></article>
+    <!--Botones de redes sociales-->
     <article class="col-md-8  text-center redes">
       <a href="#" class="btn btn-lg butredes face" target="_blank"><i class="fa fa-facebook"></i></a>                      
       <a href="#" class="btn btn-lg butredes insta" target="_blank"><i class="fa fa-instagram"></i></a>         
@@ -299,10 +292,11 @@
     </article>
     <article class="col-md-2"></article>
   </div>
-     <br>
-     <br>
-     <br>
+  <br>
+  <br>
+  <br>
   <div class="row separacion">
+    <!--Menú de pie de página--> 
     <article class="col-md-5">
       <ul class="list-inline piemenu text-center ">
         <li><a href="#inicio" class="page-scroll fada" >ACCUEIL</a></li>
@@ -313,14 +307,12 @@
       </ul>
     </article>
     <article class="col-md-4"></article>
-    <article class="col-md-3">
-      <img src="../images/copyen.png" class="img-responsive cpyr">
-    </article>
+    <!--Copyright-->
+    <article class="col-md-3"><img src="../images/copyen.png" class="img-responsive cpyr"></article>
   </div>
 
-  <div class="menu">
-    <a href="#inicio" class="scrollup" >Subir</a>
-  </div>
+  <!--Botón para subir al tope-->  
+  <div class="menu"><a href="#inicio" class="scrollup" >Subir</a></div>
 
 </footer>
 
@@ -332,5 +324,6 @@
   <script src="../JS/jquery.easing.min.js"></script>
   <script src="../JS/scrolling-nav.js"></script>
   <script src="../JS/carousel.js"></script>
+
 </body>
 </html>
