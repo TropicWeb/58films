@@ -16,6 +16,7 @@ p{
 	font-size: 1.2em;
 }
 
+
 /* Clases de la Sección 1*/
 
 .sectionunoa{
@@ -43,6 +44,10 @@ p{
 
 .navbar-toggle{
 	background-color:#000000 ;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: black;
 }
 
 .text-logo:hover{
