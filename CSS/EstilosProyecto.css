@@ -1,4 +1,3 @@
-
 font-family: 'Rasa', serif;
 
 body{
@@ -6,16 +5,48 @@ body{
 	background: #ffffff;
 }
 
-
-.piemenu > li > a[class*="fada"]{
-	color : white;
-	font-size: 14px;
+hr {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    border-radius: 0px ;
+    border-top: 20px solid #1cd3c1;
 }
 
+p{
+	font-size: 1.2em;
+}
+
+/* Clases de la Sección 1*/
+
+.sectionunoa{
+	padding-bottom: 55px;
+}
 
 .navbar{
 	background-color:#000000;
 	border-bottom: 3px solid black; 
+}
+
+.navbar .navbar-nav >li >a{
+	color: #ffffff;
+	font-family: 'helvetica' ;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.navbar .navbar-nav >li >a:hover,
+.navbar .navbar-nav >li >a:active,
+.navbar .navbar-nav >li >a:focus{
+	background-color: transparent;
+	color: #1cd3c1;
+}
+
+.navbar-toggle{
+	background-color:#000000 ;
+}
+
+.text-logo:hover{
+	color: #1cd3c1;
 }
 
 .logo{
@@ -24,14 +55,19 @@ body{
 	margin-top: -25px;
 }
 
-.logofase2{
-	height: auto ;
-	width: 160px;
-}
-
 .dropdown-menu{
 	background: #000000;;
 }
+
+.dropdown-menu>li>a{
+	padding-left:45px;
+}
+
+.dropdown-menu>li>a:hover{
+	background: #000000;
+}
+
+.drop{}/*Esta clase es auxiliar para ocultar el menú en teléfonos luego de un click*/
 
 .pbbar{
 	font-family: 'helvetica';
@@ -45,48 +81,21 @@ body{
 	color: #1cd3c1;
 }
 
-.dropdown-menu>li>a{
-	padding-left:45px;
+
+.dropbar{
+	font-size: 18px;
 }
 
-.dropdown-menu>li>a:hover{
-	background: #000000;
+.pv{
+	width:20px;
+	height: 20px; 
 }
 
 
-.text-logo:hover{
-	color: #1cd3c1;
-}
+/**/
 
-.navbar-toggle{
-	background-color:#000000 ;
-}
 
-.icon-bar{
-	background-color:#ffffff;
-}
-
-.navbar .navbar-nav >li >a{
-	color: #ffffff;
-	font-family: 'helvetica' ;
-	font-size: 1.1em;
-	font-weight: bold;
-}
-
-.leftx{
-	text-align: right;
-}
-
-.navbar .navbar-nav >li >a:hover,
-.navbar .navbar-nav >li >a:active,
-.navbar .navbar-nav >li >a:focus{
-	background-color: transparent;
-	color: #1cd3c1;
-}
-
-.sectionunoa{
-	padding-bottom: 55px;
-}
+/*Clases de la Sección 2*/
 
 .sectiondosb{
 	margin-bottom: -50px;
@@ -95,18 +104,14 @@ body{
     border-bottom:3px solid #1cd3c1;
 }
 
-.btn{
-	background-color: rgba(247, 99, 34,.7 );
-	color: white;
-	border-radius: 10px;
-}
+/**/
 
-.btn:hover{
-	background-color: rgba(247, 99, 34,1 );
-	color: white;
-	border-radius: 10px;
-	font-weight: 400;
-}
+/*Clases de la Sección 3*/
+
+.container-a{
+	border-top: 30px;
+	padding: 65px 0;
+} 
 
 .sectiontresc{
 	background:  #fff;
@@ -120,38 +125,16 @@ body{
 	background:  #890e20;
 }
 
-.titleweb{
-	font-family:'helvetica';
-	font-weight: bold; 
-	color: black;
-}
-
-.imgus{
-	text-align:center;
-}
-
-
 .posus{
 	position: relative;
 	top:-68px;
 	left: -32px;
 }
 
-.logus{
-	position: relative;
-	top:90px;
-}
-
-
-hr {
-    margin-top: 20px;
-    margin-bottom: 60px;
-    border-radius: 0px ;
-    border-top: 20px solid #1cd3c1;
-}
-
-.chase{	
-	margin-top:20px;
+.pw{
+	font-family: 'Rasa';
+	color:#fff;
+    font-size: 18px;
 }
 
 .usimgeng{    
@@ -163,31 +146,9 @@ hr {
 }
 
 
-.logosec2{
-   margin-top: 30px;
-   height: 70px;
-   width:300px;
-}
+/**/
 
-.pw{
-	font-family: 'Rasa';
-	color:#fff;
-    font-size: 18px;
-}
-
-.pb{
-	font-family: 'Rasa';
-	color:#000;
-
-}
-
-.negti{
-	font-size: 28px;
-}
-
-p{
-	font-size: 1.2em;
-}
+/*Clases de la Sección 4*/
 
 .sectioncuatrod{
 	background:  #fff;
@@ -196,15 +157,136 @@ p{
 	margin-top: -80px; 
 }
 
+.chase{	
+	margin-top:20px;
+}
+
+.pb{
+	font-family: 'Rasa';
+	color:#000;
+}
+
+.negti{
+	font-size: 28px;
+}
+
+.respim{
+   	display: none;
+}
+
+.leftx{
+	text-align: right;
+}
+
+
+.respno{
+   display: block;
+}
+
+/**/
+
+/*Clases de la Sección 5*/
+
+.unete{
+	margin-top: 70px;
+}
+
+.bgpus{
+	background-color: #000000;
+}
+
+.desplegable{
+	display: block;
+	margin-top: -50px;	
+}
+
+.bool{} /*Clase para abrir y cerrar la sección*/
+
+.only{} /*Clase auxiliar*/
+
+.SPN{
+	display: none;
+	margin-top: 10px;
+}
+
+.pbbk{
+	font-family: 'Rasa';
+	color:black;
+	font-size: 18px;
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+
+.pdf{
+	margin-top:30px;
+	margin-bottom: 30px
+}
+
+.prueba{
+	font-size: 13px;
+	display: block;
+	background-color: #890e20;
+    color: white;
+    padding: 15px;
+    border-radius: 0px;
+    margin-top:220px;
+    margin-bottom: 90px;
+    position: relative;
+    z-index: 2;
+    text-align:center;
+
+}
+
+.prueba:hover,
+.prueba:focus{
+	text-decoration: none;
+	color: white;
+}
+
+.une{
+	color: black;
+	margin-top: -345px;
+	z-index: 2;
+	position: relative;
+	font-style: 'helvetica';
+	font-weight: bold;
+	font-size: 45px;
+}
+
+/**/
+
+/*Contenedor entre sección 5 y 6*/
+
+.pp{
+	margin-top: -70px;
+	width: 100%;
+}
+
+.impl{
+	padding: 0px;
+	width: 100%;
+}
+
 .sectioncincoe{
 	margin-top: -75px; 
 }
+
+/**/
+
+/*Clases de la Sección 6*/
 
 .sectionseisf{
 	background:  #ffffff;
 	border-color: black;
 	margin-top: -255px;
 	padding: 30px;
+}
+
+
+.titleweb{
+	font-family:'helvetica';
+	font-weight: bold; 
+	color: black;
 }
 
 .rotate-icon{
@@ -236,7 +318,9 @@ p{
 	height: 500px;
 	border:6px solid #1cd3c1;
 }
+/**/
 
+/*Clases de la Sección 7*/
 
 .banner{
 	margin-top: 20px;
@@ -250,6 +334,11 @@ p{
 	background-attachment: fixed;
 	background-position: center center;
 }
+
+/**/
+
+/*Clases de la Sección 8*/
+
 
 .sectionnuevei{
 	background: #890e20;
@@ -313,6 +402,14 @@ p{
 	color: white;
 }		
 
+.separacion{
+	margin-top: 40px;
+}
+
+.piemenu > li > a[class*="fada"]{
+	color : white;
+	font-size: 14px;
+}
 
 .piemenu > li > a{
 	color: #ffffff;
@@ -321,31 +418,15 @@ p{
 	font-size: 1.20em;
 	text-decoration: none;
 }
+
 .piemenu > li > a:hover{
 	color: #1cd3c1;
-}
-
-.separacion{
-	margin-top: 40px;
-}
-
-
-.container-a{
-	border-top: 30px;
-	padding: 65px 0;
-} 
-
-.respim{
-   	display: none;
-}
-
-.respno{
-   display: block;
 }
 
 .cpyr{
 	margin-top : -50px;
 }
+
 
 .scrollup{
 	width: 40px;
@@ -364,51 +445,6 @@ p{
 	color: transparent;
 }
 
-.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
-    outline: 5px ;
-    outline-offset: -2px;
-}
-
-
-.dropbar{
-	font-size: 18px;
-}
-
-.pv{
-	width:20px;
-	height: 20px; 
-}
-
-.desplegable{
-	display: block;
-	margin-top: -50px;	
-}
-
-.SPN{
-	display: none;
-	margin-top: 10px;
-}
-
-.bool{}
-
-.bgpus{
-	background-color: #000000;
-}
-
-.unete{
-	margin-top: 70px;}
-
-.pp{
-	margin-top: -70px;
-	width: 100%;
-}
-
-.impl{
-	padding: 0px;
-	width: 100%;
-}
-
-
 .btn {
     background-color: rgb(28, 211, 193);
     color: black;
@@ -420,63 +456,21 @@ p{
 .btn:hover {
     background-color: #1cd3c1;
     border-radius:0px;
-}
-
-.btn.desaqu:hover{
-	background-color: #890e20;
-}
-
-.prueba{
-	font-size: 13px;
-	display: block;
-	background-color: #890e20;
     color: white;
-    padding: 15px;
-    border-radius: 0px;
-    margin-top:220px;
-    margin-bottom: 90px;
-    position: relative;
-    z-index: 2;
-    text-align:center;
-
 }
 
-.prueba:hover,
-.prueba:focus{
-	text-decoration: none;
-	color: white;
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: 5px ;
+    outline-offset: -2px;
 }
 
-.pdf{
-	margin-top:30px;
-	margin-bottom: 30px
-}
+.menu{} /*Auxiliar para subir "Scroll efect"*/
 
-.une{
-	color: black;
-	margin-top: -345px;
-	z-index: 2;
-	position: relative;
-	font-style: 'helvetica';
-	font-weight: bold;
-	font-size: 45px;
-}
-
-.pbbk{
-	font-family: 'Rasa';
-	color:black;
-	font-size: 18px;
-	margin-bottom: 40px;
-	margin-top: 20px;
-}
-
+/**/
 
 /*XS*/
 @media (max-width: 770px) {
 	.google-maps{
-		display: none;
-	}
-	.imghh{
 		display: none;
 	}
 	
@@ -494,12 +488,6 @@ p{
 	.sectiondosb{
 	margin-bottom: -50px;
 	margin-top: 0px;
-    }
-
-    .logus{
-    margin-top: -80px;
-	position: relative;
-	top:100px;
     }
 
     .sectioncuatrod{
@@ -580,10 +568,7 @@ p{
 
 	.sectionseisf{
 		margin-top: -295px;
-	}
-	
-	
-
+	}	
 }
 
 
@@ -602,10 +587,6 @@ p{
     .navbar .navbar-nav >li >a:hover{
 		color: #1cd3c1;
     }
-
-    .imghh{
-		display: none;
-	}
 
 	.sectioncuatrod{
 	margin-top: -60px;
@@ -661,7 +642,6 @@ p{
 	.gb{
 		font-size: 40px;
 	}
-
 }
 
 
@@ -670,7 +650,6 @@ p{
  	.usimgesp {
     	margin-top: 140px;
 	}
-
 }
 
 
@@ -678,5 +657,4 @@ p{
 	 .cpyr{
 		margin-left: 55px;
     }
-
 }
