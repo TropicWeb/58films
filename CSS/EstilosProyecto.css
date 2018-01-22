@@ -65,7 +65,7 @@ p{
 }
 
 .dropdown-menu>li>a{
-	padding-left:45px;
+	padding-left:40px;
 }
 
 .dropdown-menu>li>a:hover{
@@ -94,6 +94,11 @@ p{
 .pv{
 	width:20px;
 	height: 20px; 
+}
+
+
+.icon-bar{
+	background-color:#ffffff;
 }
 
 
@@ -147,7 +152,7 @@ p{
 }
 
 .usimgesp {
-    margin-top: 193px;
+    margin-top: 183px;
 }
 
 
@@ -328,7 +333,7 @@ p{
 /*Clases de la Sección 7*/
 
 .banner{
-	margin-top: 20px;
+	margin-top: -20px;
 }
 
 .parallax{
@@ -475,6 +480,15 @@ p{
 
 /*XS*/
 @media (max-width: 770px) {
+	
+	.pbbar{
+		font-size:12px;
+	}
+
+	.tst{
+		padding: 0px;
+	}
+
 	.google-maps{
 		display: none;
 	}
@@ -581,6 +595,9 @@ p{
 /*SM*/
 @media (min-width: 770px) and (max-width: 1000px){
 
+	.tst{
+		padding: 0px;
+	}
 
     .navbar .navbar-nav >li >a{
 		color: #ffffff;
