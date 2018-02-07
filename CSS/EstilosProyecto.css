@@ -168,7 +168,10 @@ p{
 }
 
 .chase{	
-	margin-top:20px;
+	margin-top:45px;
+	background-color:rgba(71,191,182,0.4);
+	height: 585px;
+	padding: 20px;
 }
 
 .pb{
@@ -183,11 +186,6 @@ p{
 .respim{
    	display: none;
 }
-
-.leftx{
-	text-align: right;
-}
-
 
 .respno{
    display: block;
@@ -679,4 +677,28 @@ p{
 	 .cpyr{
 		margin-left: 55px;
     }
+}
+
+@media (min-width: 2300px) { 
+   .chase{
+   	height: 800px;
+   }
+}
+
+@media (min-width: 2000px) and (max-width: 2299px) { 
+   .chase{
+   	height: 730px;
+   }
+}
+
+@media (min-width: 1700px) and (max-width: 1999px) { 
+   .chase{
+   	height: 700px;
+   }
+}
+
+@media (min-width: 1490px) and (max-width: 1699px) { 
+   .chase{
+   	height: 650px;
+   }
 }
